@@ -40,9 +40,6 @@ Works:
 - Now UI is very smooth `16d831bee5a660f5ac6da0d8fff2b3ec4697d663`
 - Vibration on touch `c7c78d2fea4e9a53da09657ccb4155ec1344bd03`
 - Correct screenshot color `8e4e8ec2f9890db53a6ecd1fa99fb73385271831`
-
-Not Working:
-
 - MTP FFS `d97d43360f6b9d3b9b6861b5566e85726a13109b`
 
 ## Compile
