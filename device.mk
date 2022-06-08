@@ -13,9 +13,6 @@ OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/polaris/polaris-vendor.mk)
 
-# Firmware
-$(call inherit-product, vendor/xiaomi-firmware/polaris/firmware.mk)
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
