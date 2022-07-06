@@ -6,21 +6,15 @@
 
 $(call inherit-product, device/xiaomi/polaris/device.mk)
 
-# Inherit some common PixelExperience stuff.
-TARGET_GAPPS_ARCH := arm64
+# Inherit some common Kaleidoscope stuff.
+$(call inherit-product, vendor/kscope/target/product/mobile.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_AOSP_RECOVERY := true
-
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_polaris
+PRODUCT_NAME := kscope_polaris
 PRODUCT_DEVICE := polaris
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi MIX 2S
+PRODUCT_MODEL := MI MIX 2S
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_SYSTEM_NAME := polaris
