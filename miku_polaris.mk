@@ -7,6 +7,9 @@
 # Maintaier
 MIKU_MASTER := Canary233
 
+#Gapps
+MIKU_GAPPS := true
+
 $(call inherit-product, device/xiaomi/polaris/device.mk)
 
 # Inherit some common Miku-UI stuff.
