@@ -51,10 +51,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths_wcd9340.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9340.xml \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/cgroups_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
@@ -129,9 +125,6 @@ PRODUCT_COPY_FILES += \
 
 # NQ Client
 PRODUCT_PACKAGES += \
-    jcos_nq_client \
-    ls_nq_client \
-    se_nq_extn_client \
     libchrome.vendor
 
 # Secure element
@@ -145,10 +138,6 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/opensource/pn5xx
-
-# Wallpapers
-PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
