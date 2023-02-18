@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Maintaier
+MIKU_MASTER := Canary233
+
 $(call inherit-product, device/xiaomi/polaris/device.mk)
 
 # Inherit some common Miku-UI stuff.
